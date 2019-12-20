@@ -1,0 +1,42 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modeBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 5vh;
+  background: linear-gradient(90deg, #0cebeb, #20e3b2, #29ffc6);
+}
+.modeBar p {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: x-large;
+  padding: 0;
+}
+.modeSelected {
+   background: gray;
+}
+
+.viewport {
+  height: 100%;
+  width: 100%;
+  background: whitesmoke;
+}
